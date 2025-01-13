@@ -23,6 +23,12 @@ For best results use a CD/DVD.
 
 </details>
 
+It is recommended to integrate Service Pack 3 (unless the edition is Media Center as Service Pack 3 integration breaks Media Center) and the systems driver cabinet using nLite as this will make Windows XP Installation on hardware much smoother. For more details see:
+
+
+
+
+
 ## Dell Media Direct DVD
 
 Dell Media Direct was a Windows application for Media Playback configured for a handful of 2006-2007 Inspiron, Latitude and XPS models. Dell also included a second power button which allowed Media Direct to boot from a preboot environment allowing Media Direct to be used outwith Windows. Ignore this section if your Dell Device does not have a Media Direct button:
