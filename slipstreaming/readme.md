@@ -57,20 +57,15 @@ Download this file, it contains all the drivers required for slipstream:
 
 <img src='./images/img_004.png' alt='img_004' width='600'/>
 
-
+Once downloaded the file needs to be extracted:
 
 <img src='./images/img_005.png' alt='img_005' width='600'/>
 
-Righ up the Windows Terminal and input:
+Right click the Start Button and select Terminal:
 
-<img src='./images/img_006.png' alt='img_006' width='600'/>
-<img src='./images/img_007.png' alt='img_007' width='600'/>
-<img src='./images/img_008.png' alt='img_008' width='600'/>
-<img src='./images/img_009.png' alt='img_009' width='600'/>
-<img src='./images/img_010.png' alt='img_010' width='600'/>
-<img src='./images/img_011.png' alt='img_011' width='600'/>
-<img src='./images/img_012.png' alt='img_012' width='600'/>
+<img src='./images/img_006.png' alt='img_006' width='200'/>
 
+To extract the `.CAB` file input:
 
 ```
 expand -F:* Downloads\7010-xp-A05-K0CK5.CAB \Downloads
@@ -78,46 +73,98 @@ expand -F:* Downloads\7010-xp-A05-K0CK5.CAB \Downloads
 
 Replacing `Downloads\7010-xp-A05-K0CK5.CAB` with the path to your `.CAB` file.
 
-
-
-
-
-
-
-
-
-
 To extract the CAB file on Windows XP [7zip](https://7-zip.org/download.html) is required.
 
+<img src='./images/img_007.png' alt='img_007' width='600'/>
 
+The `.CAB` file will be extracted, close the Windows Terminal:
 
+<img src='./images/img_008.png' alt='img_008' width='600'/>
 
+The extracted folder indicates the model number:
 
+<img src='./images/img_009.png' alt='img_009' width='600'/>
 
+The operating system `xp`:
 
-## NLite
+<img src='./images/img_010.png' alt='img_010' width='600'/>
 
-nLite can be downloaded from its
+The architecture `x86`:
+
+<img src='./images/img_011.png' alt='img_011' width='600'/>
+
+Subfolders are available for each category of driver:
+
+<img src='./images/img_012.png' alt='img_012' width='600'/>
+
+## Windows XP Folder
+
+In Downloads. Create a new folder called `win_xp`:
+
+<img src='./images/img_013.png' alt='img_013' width='600'/>
+
+Open up the Windows XP Reinstallation CD/DVD in Windows Explorer:
+
+<img src='./images/img_014.png' alt='img_014' width='600'/>
+
+Copy its contents:
+
+<img src='./images/img_015.png' alt='img_015' width='600'/>
+
+To the `win_xp` folder:
+
+<img src='./images/img_016.png' alt='img_016' width='600'/>
+
+It should look like the following:
+
+<img src='./images/img_017.png' alt='img_017' width='600'/>
+
+## nLite
+
+nLite can be downloaded from:
 
 * [nLite](https://www.nliteos.com/download.html)
 
+Launch the setup:
 
-
-
-<img src='./images/img_013.png' alt='img_013' width='600'/>
-<img src='./images/img_014.png' alt='img_014' width='600'/>
-<img src='./images/img_015.png' alt='img_015' width='600'/>
-<img src='./images/img_016.png' alt='img_016' width='600'/>
-<img src='./images/img_017.png' alt='img_017' width='600'/>
 <img src='./images/img_018.png' alt='img_018' width='600'/>
+
+Select `OK`:
+
 <img src='./images/img_019.png' alt='img_019' width='600'/>
+
+Select Next:
+
 <img src='./images/img_020.png' alt='img_020' width='600'/>
+
+Accept the License Agreement and select Next:
+
 <img src='./images/img_021.png' alt='img_021' width='600'/>
+
+Select Next:
+
 <img src='./images/img_022.png' alt='img_022' width='600'/>
+
+Select Next:
+
 <img src='./images/img_023.png' alt='img_023' width='600'/>
+
+Select Next:
+
 <img src='./images/img_024.png' alt='img_024' width='600'/>
+
+Select Finish:
+
 <img src='./images/img_025.png' alt='img_025' width='600'/>
+
+## Slipstreaming
+
+Launch nLite and select Next:
+
 <img src='./images/img_026.png' alt='img_026' width='600'/>
+
+Select the `win_xp` folder:
+
 <img src='./images/img_027.png' alt='img_027' width='600'/>
 <img src='./images/img_028.png' alt='img_028' width='600'/>
 <img src='./images/img_029.png' alt='img_029' width='600'/>
