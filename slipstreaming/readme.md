@@ -1,14 +1,157 @@
 # Slipstreaming
 
+Windows XP lacks network drivers and therefore most of the driver detection tools never worked on Windows XP even when it was a supported Operating System. On Business models such as an OptiPlex, Latitude or Precision it is easier to slipstream a driver pack opposed to installing the system drivers manually via USB. Many of these Business Models came with Windows Vista Business or Windows 7 Professional Licenses and used OEM Downgrade Rights to Windows XP Professional and their hardware is more capable than earlier Windows XP Devices.
+
 ## Windows XP Installation Media
 
-Most Dell Devices which came with Windows XP OEM shipped with a Dell Windows Reinstallation CD/DVD:
+Most Dell Devices which came with Windows XP OEM shipped with a Dell Windows Reinstallation CD/DVD. The Windows XP Reinstallation CD/DVD applies Dell OEM System Locked Preinstallation activating on a Dell Device when the BIOS has a System License Internal Code of 1.0, 2.0 (Windows Vista Business Downgrade Rights) or 2.1 (Windows 7 Professional Downgrade Rights). Insert it into your optical drive:
 
 <img src='./images/img_001.png' alt='img_001' width='600'/>
 
-Insert your Dell Windows XP Reinstallation CD/DVD into your optical drive and copy all of its contents to a subfolder in Downloads called `WindowsXP`.
+<details>
+  <summary>Unofficial Links (Untested)</summary>
+
+Unofficially a copy of the Dell Windows XP Reinstallation ISO appears to be listed here:
+
+* [Archive Org Dell Windows XP SP3 Professional Reinstallation ISO](https://archive.org/details/dell.-xp-pro-sp-3)
+* [Archive Org Dell Windows XP SP2 Home Reinstallation ISO](https://archive.org/details/dell-xp-home-sp-2)
+* [Archive Org Dell Windows XP SP2 Media Center Reinstallation ISO](https://archive.org/details/xp-mce-sp-2)
+
+Mount the ISO. A modern Windows Version has the capability of mounting an ISO natively. Windows XP does not have this capability and in order to mount an ISO in Windows XP itself [Virtual CloneDrive](https://www.elby.ch/en/products/vcd.html) is required.
+
+</details>
+
+## Windows XP Service Pack 3
+
+If your Installation Media is not at Service Pack 3 and is not the Media Center Edition\*, you should slipstream Windows XP Service Pack 3. It can be downloaded from:
+
+* [Windows XP Service Pack 3](https://www.majorgeeks.com/files/details/microsoft_Windows_xp_service_pack_3.html)
+
+\* Slipstreaming Service Pack 3 into the Media Center Edition breaks Windows Media Center.
+
+Note slipstream of the Unofficial Service Pack 4 is not recommended because it breaks the OEM SLP which will result in Windows XP Activation Issues.
+
+## Windows XP Component Updates
+
+Internet Explorer 8 could be slipstreamed with nlite but required IE8 in the form of a CAB file. I am unable to find the CAB file, just the EXE which cannot be slipstreamed. IE8 should therefore be installed manually post-installation of Windows XP:
+
+* [Internet Explorer 8](https://www.majorgeeks.com/files/details/microsoft_internet_explorer_8_for_xp.html)
+
+Windows Media Player 11 could be slipstreamed with nlite but required an addon which seems to no longer be available. WMP11 should therefore be installed manually post-installation of Windows XP:
+
+**Check if Windows XP Version**
+
+* [Windows Media Player 11](https://www.majorgeeks.com/files/details/windows_media_player.html)
+
+## Downloading the Dell Driver Pack
+
+All Windows XP Devices, including the Devices that used OEM Downgrade Rights are end of life models. Navigate to [Dell Drivers and Downloads](https://www.dell.com/support/home/en-uk?app=drivers) and search for the Device Model:
+
+<img src='./images/img_002.png' alt='img_002' width='600'/>
+
+Under Operating System select Windows XP for a WinXP Driver CAB Pack:
+
+<img src='./images/img_003.png' alt='img_003' width='600'/>
+
+Download this file, it contains all the drivers required for slipstream:
+
+<img src='./images/img_004.png' alt='img_004' width='600'/>
 
 
+
+<img src='./images/img_005.png' alt='img_005' width='600'/>
+
+Righ up the Windows Terminal and input:
+
+<img src='./images/img_006.png' alt='img_006' width='600'/>
+<img src='./images/img_007.png' alt='img_007' width='600'/>
+<img src='./images/img_008.png' alt='img_008' width='600'/>
+<img src='./images/img_009.png' alt='img_009' width='600'/>
+<img src='./images/img_010.png' alt='img_010' width='600'/>
+<img src='./images/img_011.png' alt='img_011' width='600'/>
+<img src='./images/img_012.png' alt='img_012' width='600'/>
+
+
+```
+expand -F:* Downloads\7010-xp-A05-K0CK5.CAB \Downloads
+```
+
+Replacing `Downloads\7010-xp-A05-K0CK5.CAB` with the path to your `.CAB` file.
+
+
+
+
+
+
+
+
+
+
+To extract the CAB file on Windows XP [7zip](https://7-zip.org/download.html) is required.
+
+
+
+
+
+
+
+## NLite
+
+nLite can be downloaded from its
+
+* [nLite](https://www.nliteos.com/download.html)
+
+
+
+
+<img src='./images/img_013.png' alt='img_013' width='600'/>
+<img src='./images/img_014.png' alt='img_014' width='600'/>
+<img src='./images/img_015.png' alt='img_015' width='600'/>
+<img src='./images/img_016.png' alt='img_016' width='600'/>
+<img src='./images/img_017.png' alt='img_017' width='600'/>
+<img src='./images/img_018.png' alt='img_018' width='600'/>
+<img src='./images/img_019.png' alt='img_019' width='600'/>
+<img src='./images/img_020.png' alt='img_020' width='600'/>
+<img src='./images/img_021.png' alt='img_021' width='600'/>
+<img src='./images/img_022.png' alt='img_022' width='600'/>
+<img src='./images/img_023.png' alt='img_023' width='600'/>
+<img src='./images/img_024.png' alt='img_024' width='600'/>
+<img src='./images/img_025.png' alt='img_025' width='600'/>
+<img src='./images/img_026.png' alt='img_026' width='600'/>
+<img src='./images/img_027.png' alt='img_027' width='600'/>
+<img src='./images/img_028.png' alt='img_028' width='600'/>
+<img src='./images/img_029.png' alt='img_029' width='600'/>
+<img src='./images/img_030.png' alt='img_030' width='600'/>
+<img src='./images/img_031.png' alt='img_031' width='600'/>
+<img src='./images/img_032.png' alt='img_032' width='600'/>
+<img src='./images/img_033.png' alt='img_033' width='600'/>
+<img src='./images/img_034.png' alt='img_034' width='600'/>
+<img src='./images/img_035.png' alt='img_035' width='600'/>
+<img src='./images/img_036.png' alt='img_036' width='600'/>
+<img src='./images/img_037.png' alt='img_037' width='600'/>
+<img src='./images/img_038.png' alt='img_038' width='600'/>
+<img src='./images/img_039.png' alt='img_039' width='600'/>
+<img src='./images/img_040.png' alt='img_040' width='600'/>
+<img src='./images/img_041.png' alt='img_041' width='600'/>
+<img src='./images/img_042.png' alt='img_042' width='600'/>
+<img src='./images/img_043.png' alt='img_043' width='600'/>
+<img src='./images/img_044.png' alt='img_044' width='600'/>
+<img src='./images/img_045.png' alt='img_045' width='600'/>
+<img src='./images/img_046.png' alt='img_046' width='600'/>
+<img src='./images/img_047.png' alt='img_047' width='600'/>
+<img src='./images/img_048.png' alt='img_048' width='600'/>
+<img src='./images/img_049.png' alt='img_049' width='600'/>
+<img src='./images/img_050.png' alt='img_050' width='600'/>
+<img src='./images/img_051.png' alt='img_051' width='600'/>
+<img src='./images/img_052.png' alt='img_052' width='600'/>
+<img src='./images/img_053.png' alt='img_053' width='600'/>
+<img src='./images/img_054.png' alt='img_054' width='600'/>
+<img src='./images/img_055.png' alt='img_055' width='600'/>
+<img src='./images/img_056.png' alt='img_056' width='600'/>
+<img src='./images/img_057.png' alt='img_057' width='600'/>
+<img src='./images/img_058.png' alt='img_058' width='600'/>
+<img src='./images/img_059.png' alt='img_059' width='600'/>
+<img src='./images/img_060.png' alt='img_060' width='600'/>
 
 
 
@@ -36,26 +179,8 @@ https://winsetupfromusb.org/
 
 
 
-<details>
-  <summary>Unofficial Links (Untested)</summary>
 
-Unofficially a copy of the Dell Windows XP Reinstallation ISO appears to be listed here:
 
-* [Archive Org Dell Windows XP SP3 Professional Reinstallation ISO](https://archive.org/details/dell.-xp-pro-sp-3)
-* [Archive Org Dell Windows XP SP2 Home Reinstallation ISO](https://archive.org/details/dell-xp-home-sp-2)
-* [Archive Org Dell Windows XP SP2 Media Center Reinstallation ISO](https://archive.org/details/xp-mce-sp-2)
-
-For best results use a CD/DVD.
-
-</details>
-
-## Windows XP Service Pack 3
-
-If your Installation Media is not at Service Pack 3 and is not the Media Center Edition\*, you should slipstream Windows XP Service Pack 3. It can be downloaded from:
-
-* [Windows XP Service Pack 3](https://www.majorgeeks.com/files/details/microsoft_Windows_xp_service_pack_3.html)
-
-\* Slipstreaming Service Pack 3 into the Media Center Edition breaks Windows Media Center.
 
 
 
