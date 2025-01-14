@@ -23,11 +23,7 @@ For best results use a CD/DVD.
 
 </details>
 
-It is recommended to integrate Service Pack 3 (unless the edition is Media Center as Service Pack 3 integration breaks Media Center) and the systems driver cabinet using nLite as this will make Windows XP Installation on hardware much smoother. For more details see:
-
-
-
-
+It is recommended to integrate Service Pack 3 (unless the edition is Media Center as Service Pack 3 integration breaks Media Center) and the systems driver cabinet using nLite as this will make Windows XP Installation on hardware much smoother. For more details see [Service Pack and Driver Integration using nLite](./integration/readme.md).
 
 ## Dell Media Direct DVD
 
