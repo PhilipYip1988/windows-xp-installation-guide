@@ -1,4 +1,4 @@
-# Slipstreaming
+# Integration
 
 Windows XP lacks network drivers and therefore most of the driver detection tools never worked on Windows XP even when it was a supported Operating System. On Business models such as an OptiPlex, Latitude or Precision it is easier to slipstream a driver pack opposed to installing the system drivers manually via USB. Many of these Business Models came with Windows Vista Business or Windows 7 Professional Licenses and used OEM Downgrade Rights to Windows XP Professional and their hardware is more capable than earlier Windows XP Devices.
 
@@ -206,7 +206,7 @@ Select OK:
 The next screen will ask what Storage Controller Driver to Slipstream, this should the SATA Operation used in the BIOS Setup. On the OptiPlex 7010.Select only one of the drivers:
 
 * If installing Windows XP using the RAID SATA Operation in the BIOS Setup use the Intel Desktop/Workstation/Server Express Chipset SATA RAID Controller.
-* If installing Windows XP using the AHCI SATA Operation in the BIOS Setup use the Intel ICH10R SATA AHCI Controller.
+* If installing Windows XP using the AHCI SATA Operation in the BIOS Setup use the Intel ICH10R SATA AHCI Controller **(recommended)**.
 
 Select Next:
 
