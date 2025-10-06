@@ -2,6 +2,10 @@
 
 Windows XP lacks network drivers and therefore most of the driver detection tools never worked on Windows XP even when it was a supported Operating System. On Business models such as an OptiPlex, Latitude or Precision it is easier to slipstream a driver pack opposed to installing the system drivers manually via USB. Many of these Business Models came with Windows Vista Business or Windows 7 Professional Licenses and used OEM Downgrade Rights to Windows XP Professional and their hardware is more capable than earlier Windows XP Devices.
 
+## YouTube Video
+
+* [Windows XP Slipstream](https://www.youtube.com/watch?v=lL_bHfRMoTM)
+
 ## Windows XP Installation Media
 
 Most Dell Devices which came with Windows XP OEM shipped with a Dell Windows Reinstallation CD/DVD. The Windows XP Reinstallation CD/DVD applies Dell OEM System Locked Preinstallation activating on a Dell Device when the BIOS has a System License Internal Code of 1.0, 2.0 (Windows Vista Business Downgrade Rights) or 2.1 (Windows 7 Professional Downgrade Rights). Insert it into your optical drive:
