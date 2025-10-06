@@ -2,13 +2,19 @@
 
 ## Windows XP Code of Authencity
 
-Dell systems which shipped with Windows XP typically had a Windows XP Home/Pro/MCE CoA, Windows Vista Business CoA (OEM Downgrade Rights to Windows XP Pro) or Windows 7 Professional CoA (OEM Downgrade Rights to Windows XP Pro). CoAs were prone to fading making the product key unreadible. Fortunately the 25 digit product key was not required as Dell OEM System Locked Preinstallation was used:
+Dell systems which shipped with Windows XP typically had either: 
+
+* Windows XP Home/Pro/MCE CoA
+* Windows Vista Business CoA (OEM Downgrade Rights to Windows XP Pro)
+* Windows 7 Professional CoA (OEM Downgrade Rights to Windows XP Pro)
 
 <img src="https://github.com/user-attachments/assets/18009f5a-58e2-4efa-96e1-8aa35e6b9ed2" width="600"/>
 
+CoAs were prone to fading making the product key unreadible. Fortunately the 25 digit product key was not required as an Offline BIOS based Product Activation known as Dell OEM System Locked Preinstallation was used.
+
 ## Supported Systems
 
-In order to install Windows XP Professional using OEM Downgrade Rights, Dell need to support to provide a Windows XP driver set. The last system to support Windows XP was the OptiPlex 7010 with a 3rd Generation Intel Processor. On this system Secure Boot has to be Disabled and a Legacy Boot Removed. For reference:
+OEM Downgrade rights were typically only on the business range of products for example the OptiPlex Desktops and Latitude Laptops. The last systems to support Windows XP had a 3rd Generation intel Processors. On these last models, UEFI was introduced as an enterprise feature for Windows 7 and Secure Boot was introduced as an enterprise feature for Windows 8. These features are not supported by Windows XP and have to be disabled:
 
 |Model|Release Date|Processor|SLIC|Technologies|
 |---|---|---|---|---|
@@ -21,6 +27,17 @@ In order to install Windows XP Professional using OEM Downgrade Rights, Dell nee
 |~~OptiPlex 7040~~|2015|~~6th Generation (Skylake)~~|2.1|UEFI BIOS with Secure Boot|
 |~~OptiPlex 7050~~|2017|~~6th Generation (Skylake) or 7th Generation (Kabylake)~~|2.1|UEFI BIOS with Secure Boot|
 |~~OptiPlex 7060~~|2018|~~8th generation (Coffeelake)~~|2.1|UEFI BIOS with Secure Boot|
+
+|Model|Release Date|Processor|SLIC|Technologies|
+|---|---|---|---|---|
+|Latitude Exx0x|2008|Intel Core Duo|2.0|Legacy BIOS|
+|Latitude Exx1x|2010|1st Gen|2.1|UEFI BIOS – No Secure Boot (only with the latest UEFI BIOS Update), there is no option for Legacy ROMs as these are always Enabled|
+|Latitude Exx2x|2010|2nd Gen|2.1|UEFI BIOS – No Secure Boot, there is no option for Legacy ROMs as these are always Enabled|
+|Latitude Exx3x|2011|3rd Gen|2.1|UEFI BIOS – No Secure Boot, there is no option for Legacy ROMs as these are always Enabled|
+|~~Latitude Exx4x~~|2013|~~4th Generation (Haswell)~~|2.1|UEFI BIOS with Secure Boot|
+|~~Latitude Exx5x~~|2015|~~5th Generation (Broadwell)~~|2.1|UEFI BIOS with Secure Boot|
+|~~Latitude Exx8x~~|2017|~~6th Generation (Skylake)~~|2.1|UEFI BIOS with Secure Boot|
+|~~Latitude Exx9x~~|2018|~~8th Generation (Coffeelake)~~|2.1|UEFI BIOS with Secure Boot|
 
 ## Dell Windows XP Reinstallation CD/DVD
 
@@ -37,17 +54,25 @@ Unofficially a copy of the Dell Windows XP Reinstallation ISO appears to be list
 * [Archive Org Dell Windows XP SP2 Home Reinstallation ISO](https://archive.org/details/dell-xp-home-sp-2)
 * [Archive Org Dell Windows XP SP2 Media Center Reinstallation ISO](https://archive.org/details/xp-mce-sp-2)
 
-For best results burn the ISO to a CD/DVD. Note Rufus did not work properly with Windows XP.
-
 </details>
 
+### Slipstream
 
+It is recommended to integrate Service Pack 3 and the systems driver cabinet using nLite as this will make Windows XP Installation on hardware much smoother. For more details see [Service Pack and Driver Integration using nLite](./integration/readme.md). Note Service pack 3 cannot be integrated with Windows XP Media Centre as integration of the Service Pack breaks the setup of Media Centre. Be careful when integrating the Service Pack not to break OEM SLP.
 
-In OEM SLP, the Dell Device has a System License Internal Code (SLIC) of 1.0 embedded in the Devices BIOS. Instead of the OEM Product Key on the CoA, a generic SLP key is used. When the SLP key is used in conjunction with a Dell Device with a SLIC 1.0, automatic offline Product Activation occurs:
+### CD/DVD
 
+For best results burn the Windows XP ISO to a CD/DVD. 
 
+### USB
 
-It is recommended to integrate Service Pack 3 and the systems driver cabinet using nLite as this will make Windows XP Installation on hardware much smoother. For more details see [Service Pack and Driver Integration using nLite](./integration/readme.md).
+Rufus did not work properly with Windows XP Installation Media. During the Windows Setup the USB flash drive was recognised as `X:` but after reboot it is recognised as `D:` meaning that the Windows setup can't find a file from the installation media during the Windows setup. Redirecting the installation media to that file only find that file and does not change the directory to search for the next file, meaning there are 200-300 prompts...
+
+WinSetupFromUSB creates a bootloader and USB folder mapping that mimics a CD/DVD. This works from Windows XP Home and Windows XP Pro but usually breaks the Media Centre Edition file structure meaning Windows XP Media Centre Edition is installed without Media Centre.
+
+## OEM System Locked Preinstallation
+
+The Dell BIOS has a System Licence Internal Code 1.0 (SLIC 1.0 included with SLIC 2.1 or SLIC 2.0 via downgrade rights). Dell Windows XP Reinstalaltion Media uses a generic System locked Preinstallation Key. When the SLP key is used in conjunction with the SLIC 1.0 in the Dell BIOS, automatic offline Product Activation occurs.
 
 ## Dell Media Direct DVD
 
