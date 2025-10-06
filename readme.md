@@ -1,6 +1,19 @@
 # Windows XP Reinstallation Guide
 
-Before attempting to install Windows XP on your end of life Dell model, confer with the [Dell Drivers and Downloads](https://www.dell.com/support/home/en-uk?app=drivers) to check if there is a Windows XP driver set. The last Dell Desktop to support Windows XP Professional via OEM Downgrade Rights from Windows 7 Professional is the OptiPlex 7010 which has a Intel Q77 Express Chipset (3rd Generation Intel Processors). Intel did not provide drivers for the Intel Q87 Express Chipset (4th Generation Intel Processors).
+## Windows XP Code of Authencity
+
+Dell systems which shipped with Windows XP typically had a Windows XP Home/Pro/MCE CoA, Windows Vista Business CoA (OEM Downgrade Rights to Windows XP Pro) or Windows 7 Professional CoA (OEM Downgrade Rights to Windows XP Pro). CoAs were prone to ading making the product key unreadible. Fortunately the 25 digit product key was not required as Dell OEM System Locked Preinstallation was used:
+
+<img src="https://github.com/user-attachments/assets/18009f5a-58e2-4efa-96e1-8aa35e6b9ed2" width="600"/>
+
+
+
+
+
+
+
+
+
 
 ## Dell Windows XP Reinstallation CD/DVD
 
