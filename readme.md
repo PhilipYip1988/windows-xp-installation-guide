@@ -6,7 +6,21 @@ Dell systems which shipped with Windows XP typically had a Windows XP Home/Pro/M
 
 <img src="https://github.com/user-attachments/assets/18009f5a-58e2-4efa-96e1-8aa35e6b9ed2" width="600"/>
 
-The systems with downgrade rights
+## Supported Systems
+
+In order to install Windows XP Professional using OEM Downgrade Rights, Dell need to support to provide a Windows XP driver set. The last system to support Windows XP was the OptiPlex 7010 with a 3rd Generation Intel Processor. On this system Secure Boot has to be Disabled and a Legacy Boot Removed. For reference:
+
+|Model|Release Date|Processor|SLIC|Technologies|
+|---|---|---|---|---|
+|OptiPlex 755|2008|Intel Core 2 Duo|2.0|Legacy BIOS|
+|OptiPlex 760|2009|Pentium|2.1|Legacy BIOS|
+|OptiPlex 780|2010|Core 2 Quad|2.1|Legacy BIOS|
+|OptiPlex 390/790|2011|2nd Generation (Sandy Bridge)|2.1|UEFI BIOS – No Secure Boot, there is no option for Legacy ROMs as these are always Enabled|
+|OptiPlex 3010/7010|2012|3rd Generation (Ivy Bridge)|2.1|UEFI BIOS with Secure Boot (only with the latest UEFI BIOS Update)|
+|~~OptiPlex 7020~~|2014|~~4th Generation (Haswell)~~|2.1|UEFI BIOS with Secure Boot|
+|~~OptiPlex 7040~~|2015|~~6th Generation (Skylake)~~|2.1|UEFI BIOS with Secure Boot|
+|~~OptiPlex 7050~~|2017|~~6th Generation (Skylake) or 7th Generation (Kabylake)~~|2.1|UEFI BIOS with Secure Boot|
+|~~OptiPlex 7060~~|2018|~~8th generation (Coffeelake)~~|2.1|UEFI BIOS with Secure Boot|
 
 ## Dell Windows XP Reinstallation CD/DVD
 
