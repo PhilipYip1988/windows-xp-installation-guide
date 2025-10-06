@@ -240,3 +240,47 @@ You will be now taken to the Windows XP Desktop:
 
 <img src='./images/img_048.png' alt='img_048' width='600'/>
 
+## Additional Setup Screens – Windows XP Media Center Edition
+
+For Windows XP Media Centre Edition there will be a few additional steps. It will automatically reboot and then install the Media Centre Edition programs, you shouldn't touch your computer at this point. It should then reboot and you should be taken to the Windows Desktop.
+
+<img src="https://github.com/user-attachments/assets/91ea0567-63fa-4751-88a6-903e192a88d5" width="600"/>
+
+<img src="https://github.com/user-attachments/assets/146654f7-4f28-4482-925c-0e3fd0d2bcf6" width="600"/>
+
+## Product Key and Product Activation
+
+A Dell Windows XP Reinstallation CD/DVD should automatically input a Dell System Locked Preinstallation Key and this alongside the System License Internal Code 1.0 embedded in the Dell BIOS should lead to offline Product Activation.
+
+## System Drivers
+
+**For Windows XP to function correctly (particularly system audio), Dell Drivers should be installed in the following order:**
+
+* Dell System (Notebook/Desktop) Software – Under System Utilities
+* Chipset Drivers – Intel Chipset First – Under Chipset
+* Chipset Drivers – Any other Intel – Under Chipset
+* Card Reader – Realtek, Ricoh, O2 Micro – Under Chipset or Removable Storage
+* Intel Matrix Storage Manager/Rapid Storage Technology – Under SATA Drives or CPU
+* Video\* – Intel, AMD or NVIDIA – Under Video
+* Modem\* – Conexant or Intel – Under Modem
+* Network\* – Ethernet – Under Network
+* Touchpad – Touchpad – Under Input
+* Audio – Sigmatel, Intel or Realtek – Under Audio
+* TVTuners – Under Video
+* Wireless Card\* – Under Network
+* Bluetooth\* – Under Network
+* Keyboard/Mouse Application – Under Applications
+* Dell Quickset – Under Applications
+* Webcam Driver – Under Input
+
+The drivers marked with \* typically have variants. Install the driver first and then any application. Note if you select the wrong variant the driver will fail to install.
+
+Not all these drivers are available for all Models, Touchpads were only prevalent in laptops and not every model had a wireless card or bluetooth. TV tuners were quite rare.
+
+Unfortunately for Windows XP, the system drivers were not listed in the correct installation order. When downloading the drivers it is recommended to create folder names corresponding to the above list, so you know what driver is what.
+
+Dell System Drivers can be downloaded from:
+
+* [Dell Drivers and Downloads](https://www.dell.com/support/home/en-uk?app=drivers&msockid=2093e6dfeda16022171cf2a7ec996136)
+
+Note all Windows XP systems are listed under the Legacy category (or under the product name and then Legacy).
