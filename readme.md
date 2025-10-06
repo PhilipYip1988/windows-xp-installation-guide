@@ -2,28 +2,17 @@
 
 ## Windows XP Code of Authencity
 
-Dell systems which shipped with Windows XP typically had a Windows XP Home/Pro/MCE CoA, Windows Vista Business CoA (OEM Downgrade Rights to Windows XP Pro) or Windows 7 Professional CoA (OEM Downgrade Rights to Windows XP Pro). CoAs were prone to ading making the product key unreadible. Fortunately the 25 digit product key was not required as Dell OEM System Locked Preinstallation was used:
+Dell systems which shipped with Windows XP typically had a Windows XP Home/Pro/MCE CoA, Windows Vista Business CoA (OEM Downgrade Rights to Windows XP Pro) or Windows 7 Professional CoA (OEM Downgrade Rights to Windows XP Pro). CoAs were prone to fading making the product key unreadible. Fortunately the 25 digit product key was not required as Dell OEM System Locked Preinstallation was used:
 
 <img src="https://github.com/user-attachments/assets/18009f5a-58e2-4efa-96e1-8aa35e6b9ed2" width="600"/>
 
-
-
-
-
-
-
-
-
+The systems with downgrade rights
 
 ## Dell Windows XP Reinstallation CD/DVD
 
-Most Dell Windows XP Devices shipped with a Dell Windows Reinstallation CD/DVD:
+Most Dell Windows XP Devices shipped with a Dell Windows Reinstallation CD/DVD which applied OEM System Locked Preinstallation:
 
 <img src='./images/img_001.png' alt='img_001' width='600'/>
-
-Windows XP Devices shipped with Windows XP came with a Windows XP Code of Authenticity (CoA). Newer Dell Business Devices came with a Windows Vista Business CoA or Windows 7 Professional CoA. The Product Key affixed to the CoA wasn't typically used as Windows XP OEM activated using OEM System Locked Preinstallation (SLP). In OEM SLP, the Dell Device has a System License Internal Code (SLIC) of 1.0 embedded in the Devices BIOS. Instead of the OEM Product Key on the CoA, a generic SLP key is used. When the SLP key is used in conjunction with a Dell Device with a SLIC 1.0, automatic offline Product Activation occurs:
-
-<img src='./images/img_002.png' alt='img_002' width='600'/>
 
 <details>
   <summary>Unofficial Links (Untested)</summary>
@@ -34,9 +23,15 @@ Unofficially a copy of the Dell Windows XP Reinstallation ISO appears to be list
 * [Archive Org Dell Windows XP SP2 Home Reinstallation ISO](https://archive.org/details/dell-xp-home-sp-2)
 * [Archive Org Dell Windows XP SP2 Media Center Reinstallation ISO](https://archive.org/details/xp-mce-sp-2)
 
-For best results use a CD/DVD.
+For best results burn the ISO to a CD/DVD. Note Rufus did not work properly with Windows XP.
 
 </details>
+
+
+
+In OEM SLP, the Dell Device has a System License Internal Code (SLIC) of 1.0 embedded in the Devices BIOS. Instead of the OEM Product Key on the CoA, a generic SLP key is used. When the SLP key is used in conjunction with a Dell Device with a SLIC 1.0, automatic offline Product Activation occurs:
+
+
 
 It is recommended to integrate Service Pack 3 and the systems driver cabinet using nLite as this will make Windows XP Installation on hardware much smoother. For more details see [Service Pack and Driver Integration using nLite](./integration/readme.md).
 
