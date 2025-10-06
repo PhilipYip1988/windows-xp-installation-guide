@@ -331,3 +331,10 @@ Dell System Drivers can be downloaded from:
 * [Dell Drivers and Downloads](https://www.dell.com/support/home/en-uk?app=drivers&msockid=2093e6dfeda16022171cf2a7ec996136)
 
 Note all Windows XP systems are listed under the Legacy category (or under the product name and then Legacy).
+
+## Royal and Royal Noir Theme
+
+* [Royale and Royale Noir Theme](https://istartedsomething.com/20061029/royale-noir/#downloadlink)
+
+
+
