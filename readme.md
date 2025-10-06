@@ -148,46 +148,95 @@ To setup Windows XP press `↵`:
 
 Press `F8` to accept the License Agreement:
 
-<img src='./images/img_024.png' alt='img_024' width='600'/>
+<img src='./images/img_026.png' alt='img_026' width='600'/>
 
 For a system that has been partitioned using the Dell Media Direct CD/DVD. Press the `↓` key to get to `C:\` and highlight CD/DVD drive and press `↵`. Press `↵` to install:
 
-<img src='./images/img_026.png' alt='img_026' width='600'/>
+<img src='./images/img_027.png' alt='img_027' width='600'/>
 
 For a system that has not been partitioned using the Dell Media Direct CD/DVD, select each partition and press `D` to delete. Delete all partions until it says unpartitioned space and press `↵` to install:
 
-<img src='./images/img_027.png' alt='img_027' width='600'/>
+<img src='./images/img_028.png' alt='img_028' width='600'/>
+
+Press the `↓` key and select Format the Partition using the NTFS File System and press `↵` to proceed:
+
+<img src='./images/img_024.png' alt='img_024' width='600'/>
 
 The Windows XP setup will reboot:
 
-<img src='./images/img_028.png' alt='img_028' width='600'/>
-
 <img src='./images/img_029.png' alt='img_029' width='600'/>
-
-In the next screen you will be given the language settings. Select Customise:
 
 <img src='./images/img_030.png' alt='img_030' width='600'/>
 
-In the Regional options tab under Standards and Formats select the Language (Regional Language Settings) and under Location select the Location, then select Apply. In this example the options are set for English (UK):
+In the next screen you will be given the language settings. Select Customise:
 
 <img src='./images/img_031.png' alt='img_031' width='600'/>
+
+In the Regional options tab under Standards and Formats select the Language (Regional Language Settings) and under Location select the Location, then select Apply. In this example the options are set for English (UK):
+
 <img src='./images/img_032.png' alt='img_032' width='600'/>
+
+The English (US) keyboard is selected by default. To change this select Details:
+
 <img src='./images/img_033.png' alt='img_033' width='600'/>
+
+In this example, English (UK) will be selected:
+
 <img src='./images/img_034.png' alt='img_034' width='600'/>
+
+Select next:
+
 <img src='./images/img_035.png' alt='img_035' width='600'/>
+
+Input the Computer Name and select Next:
+
 <img src='./images/img_036.png' alt='img_036' width='600'/>
+
+Use the default settings for the Workgroup and seelct Next:
+
 <img src='./images/img_037.png' alt='img_037' width='600'/>
+
+Select the Time Zone and then select Next:
+
 <img src='./images/img_038.png' alt='img_038' width='600'/>
+
+Select Typical Settings and then select Next:
+
 <img src='./images/img_039.png' alt='img_039' width='600'/>
+
+Select OK:
+
 <img src='./images/img_040.png' alt='img_040' width='600'/>
+
+Select OK:
+
 <img src='./images/img_041.png' alt='img_041' width='600'/>
+
+The Windows XP Logo will display:
+
 <img src='./images/img_042.png' alt='img_042' width='600'/>
+
+Select Next:
+
 <img src='./images/img_043.png' alt='img_043' width='600'/>
+
+Select Not right now and select Next:
+
 <img src='./images/img_044.png' alt='img_044' width='600'/>
+
+Select skip:
+
 <img src='./images/img_045.png' alt='img_045' width='600'/>
+
+Input your user name and select next:
+
 <img src='./images/img_046.png' alt='img_046' width='600'/>
+
+Select Finish:
+
 <img src='./images/img_047.png' alt='img_047' width='600'/>
+
+You will be now taken to the Windows XP Desktop:
+
 <img src='./images/img_048.png' alt='img_048' width='600'/>
-<img src='./images/img_049.png' alt='img_049' width='600'/>
-<img src='./images/img_050.png' alt='img_050' width='600'/>
-<img src='./images/img_051.png' alt='img_051' width='600'/>
+
