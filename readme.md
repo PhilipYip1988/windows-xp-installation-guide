@@ -44,12 +44,12 @@ For correct operation the preboot environment needs to be setup before Windows b
 
 For Inspiron 640M, 6400/E1505, 9400/E1705, XPS M1210, XPS M1710, XPS M2010:
 
-* [Media Direct 3.3 ISO](https://archive.org/details/dell-media-direct-3.3)
+* [Dell Media Direct 3.3 ISO](https://archive.org/details/dell-media-direct-3.3)
 
 For Inspiron 1420, 1520, 1720, 6400, XPS M1210
 M1330, Latitude D620 and Latitude D630:
 
-* [Dell Media Direct 3.3](https://archive.org/details/media-direct-restore)
+* [Dell Media Direct 3.3 ISO](https://archive.org/details/media-direct-restore)
 
 For Vostro 1400, 1500, 1700:
 
@@ -57,7 +57,7 @@ For Vostro 1400, 1500, 1700:
 
 For Inspiron 1525, XPS M1330, M1530, M1730 and Latitude D830:
 
-* [Dell Media Direct 3.5](https://archive.org/details/DellMediaDirect3.5ReinstallDVDForInspiron)
+* [Dell Media Direct 3.5 ISO](https://archive.org/details/DellMediaDirect3.5ReinstallDVDForInspiron)
 
 The Media Direct ISO images don't boot properly from USB so burn the image to a DVD.
 
@@ -93,20 +93,36 @@ In System Configuration, the SATA Operation can be selected. For Windows XP use 
 
 ## Setup Media Direct Partition
 
+Skip this section unless your system came with Dell Media Direct.
+
 <details>
   <summary>Media Direct</summary>
 
+To get to the BIOS Boot Menu hold F12 while powering up your computer (at the Dell BIOS splash screen): 
 
 <img src='./images/img_012.png' alt='img_012' width='600'/>
 
+Press the `↓` key and highlight CD/DVD drive and press `↵`:
 
+<img src='./images/img_014.png' alt='img_014' width='600'/>
+
+Press `h` to boot from the CD/DVD:
 
 <img src='./images/img_013.png' alt='img_013' width='600'/>
-<img src='./images/img_014.png' alt='img_014' width='600'/>
-<img src='./images/img_015.png' alt='img_015' width='600'/>
+
+The MediaDirect preinstallation setup will then load. Type in `y`:
+
 <img src='./images/img_016.png' alt='img_016' width='600'/>
+
+Type in a `h`:
+
 <img src='./images/img_017.png' alt='img_017' width='600'/>
+
+During the Windows XP Setup, no partitions should be changed. Press the `↓` key to get to `C:\` and highlight CD/DVD drive and press `↵`. Press `↵` to install:
+
 <img src='./images/img_018.png' alt='img_018' width='600'/>
+
+Press `↵` to install:
 
 <img src='./images/img_019.png' alt='img_019' width='600'/>
 
@@ -114,18 +130,46 @@ In System Configuration, the SATA Operation can be selected. For Windows XP use 
 
 ## Installation
 
+To get to the BIOS Boot Menu hold F12 while powering up your computer (at the Dell BIOS splash screen): 
 
 <img src='./images/img_020.png' alt='img_020' width='600'/>
-<img src='./images/img_021.png' alt='img_021' width='600'/>
+
+Press the `↓` key and highlight CD/DVD drive and press `↵`:
+
 <img src='./images/img_022.png' alt='img_022' width='600'/>
-<img src='./images/img_023.png' alt='img_023' width='600'/>
-<img src='./images/img_024.png' alt='img_024' width='600'/>
+
+Press `h` to boot from the CD/DVD:
+
+<img src='./images/img_021.png' alt='img_021' width='600'/>
+
+To setup Windows XP press `↵`:
+
 <img src='./images/img_025.png' alt='img_025' width='600'/>
+
+Press `F8` to accept the License Agreement:
+
+<img src='./images/img_024.png' alt='img_024' width='600'/>
+
+For a system that has been partitioned using the Dell Media Direct CD/DVD. Press the `↓` key to get to `C:\` and highlight CD/DVD drive and press `↵`. Press `↵` to install:
+
 <img src='./images/img_026.png' alt='img_026' width='600'/>
+
+For a system that has not been partitioned using the Dell Media Direct CD/DVD, select each partition and press `D` to delete. Delete all partions until it says unpartitioned space and press `↵` to install:
+
 <img src='./images/img_027.png' alt='img_027' width='600'/>
+
+The Windows XP setup will reboot:
+
 <img src='./images/img_028.png' alt='img_028' width='600'/>
+
 <img src='./images/img_029.png' alt='img_029' width='600'/>
+
+In the next screen you will be given the language settings. Select Customise:
+
 <img src='./images/img_030.png' alt='img_030' width='600'/>
+
+In the Regional options tab under Standards and Formats select the Language (Regional Language Settings) and under Location select the Location, then select Apply. In this example the options are set for English (UK):
+
 <img src='./images/img_031.png' alt='img_031' width='600'/>
 <img src='./images/img_032.png' alt='img_032' width='600'/>
 <img src='./images/img_033.png' alt='img_033' width='600'/>
